@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Revise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Topics:</h1>
+    <ol>
+        <li>
+            <h2>Type of css :</h2>
+            <ul>
+                <li>internal: style tag</li>
+                <li>external: link sheet</li>
+                <li>inline: style tag</li>
+            </ul>
+            done using selectors : tag name,class,id,group,universal
+            child,desendant,pseudo
+        </li>
+        <li>
+            <h2>Box Model :</h2>
+            <div class="box">this is a box</div>
+            <div class="box1">this is another box</div>
+            MARGIN OF BOTH WILL BE COLLAPSED(MERGED IF THEY OVERLAP)
+        </li>
+        <li>
+            <h2>Fonts and Colors</h2>
+            <div class="text">
+                <h3>Fonts</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam pariatur, quibusdam non ex quam illum
+                quaerat dicta doloribus nesciunt rerum fugiat eligendi maxime! A, omnis sunt eos, officiis itaque
+                laboriosam blanditiis odio quisquam et ab eligendi dolorem eum possimus quasi veritatis modi similique
+                ratione. Fugiat quam minus dignissimos asperiores iusto.
+            </div>
+        </li>
+        <li>
+            <h2>exercise 2</h2>
+            <div class="task">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ea velit nemo minima. Tempora quae
+                    facilis, commodi repellendus dolorum molestiae illum ut perspiciatis dolore saepe voluptate sequi,
+                    doloribus ipsum quas!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, laboriosam?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, laboriosam?</p>
+            </div>
+        </li>
+        <li>
+            <h2>Specificity and Cascade in css</h2>
+            <b>Position and order of appearance:</b> the order in which your CSS rules appear
+            Specificity: an algorithm that determines which CSS selector has the strongest match
+            Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a
+            browser extension, or your authored CSS
+            Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+            Lets look into all these one by one
+            <br>
+            <b>Specificity: </b>
+            Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+            <br>
+            <b> Importance</b>
+            The !important flag in CSS is used to give a particular style rule the highest level of importance,
+            overriding any other competing styles.
+        </li>
+        <li>
+            <h2>Size units</h2>
+            <ul>
+                <li><b>px : </b>193 of an inch</li>
+                <li><b>vm/vh : </b>viewport</li>
+                <li><b>4em :</b>4 times of its inherit </li>
+                <li><b>4rem</b>: 4 times of root size</li>
+                <li><b>vmin/vmax</b> smaller / greator from vw,vh</li>
+                <li><b>%</b>: % of parent</li>
+            </ul>
+        </li>
+        <li>
+            <h2>Display</h2>
+            <ul>
+                <li><b>inline</b>: no extra space</li>
+                <li>preserves required space<b>inline-block</b>: no extra space but </li>
+            </ul>
+        </li>
+        <li>
+            <h2>Shadows & Outline</h2>
+            <div class="shadowbox">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore esse, eligendi perspiciatis cum
+                cumque labore ab obcaecati amet porro aperiam?
+                h-offset and v-offset: Determines the shadow's horizontal and vertical position.
+                <br>
+                <code>box-shadow: h-offset v-offset blur spread color inset;</code>
+                <br>
+                blur: The larger the value, the blurrier the shadow.
+                <br>
+                spread: Expands or shrinks the shadow size.
+                <br>
+                color: Defines the shadow color
+                <br>
+                inset: Makes the shadow inner.
+            </div>
+        </li>
+        <li class="list">
+            <h2>List style</h2>
+            <ol>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+            </ol>
+        </li>
+        <li><h2>Overflow</h2>
+            <div class="over">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus beatae alias numquam, voluptates quas, pariatur suscipit error facilis eos similique mollitia in, aliquid dolorum praesentium deleniti amet repudiandae earum quidem temporibus repellendus illum velit illo. Assumenda vitae cupiditate exercitationem natus quo tempora voluptates. Voluptatibus nisi velit aliquam, voluptatem sequi expedita non dolorum! Laboriosam eligendi vel quaerat esse dignissimos alias illum illo animi ut cumque harum, blanditiis eaque distinctio molestias iure voluptatibus aut similique non, repellat iusto inventore cupiditate facere maiores. Velit soluta recusandae et qui quisquam facere, ipsum officiis tenetur, officia debitis nihil. Culpa, fuga? Ex repellat eaque alias expedita?
+            </div>
+        </li>
+
+        <li>
+            <h2>Position</h2>
+                <div class="boxji">
+
+                    <div class=" box6">1</div>
+                    <div class=" box2">2</div>
+                    <div class=" box3">3</div>
+                    <div class=" box4">4</div>
+                    <div class=" box5">5</div>
+                </div>
+            <p>
+                <ul>
+                    <li>
+                        Absoute: top,left has highest priority
+                    </li>
+                    <li>
+                        Relative: Controls the behaviour of children.
+                    </li>
+                    <li>
+                        static : Initial
+                    </li>
+                    <li>
+                        sticky : stick at boundaries
+                    </li>
+                    <li>
+                        Fixed : Respective only to the html
+                    </li>
+                </ul>
+                    transform filter and perspective are exception
+            </p>
+        </li>
+    </ol>
+
+
+</body>
+
+</html>
