@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body{
+            color: #454545;
+            background-color: #e6e6e6;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .main {
+            position: relative;
+            display: grid;
+            padding: 5px;
+            margin: auto;
+            width: 40vw;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .main img{
+            display: block;
+            margin: auto;
+            width: 98%;
+            /* overflow: hidden; */
+        }
+        .tags{
+            display: flex;
+         }
+        .tags *{
+            border:1px solid #b9b9b9;
+            color: #b9b9b9;
+            border-radius: 10px;
+            margin-left: 15px;
+            margin-top: 15px;
+            padding: 0px 5px;
+            font-weight: 500;
+         }
+         h2{
+            margin-left: 10px;
+            margin-bottom: 0;
+        }
+        p{
+            margin-left: 10px;
+            color: #b9b9b9;
+         }
+         .readmore{
+            /* align-self: center; */
+            /* position: relative; */
+            margin: auto;
+            text-align: center;
+            background-color: rgb(200, 237, 250);
+            display: inline-block;
+            padding: 10px 25px;
+            border-radius: 20px;
+            color: rgb(0, 119, 255);
+            font-weight: 600;
+            font-size: small;
+         }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://uknowtrip.com/assets/images/about/about-image.jpg" alt="Man">
+        <div class="tags">
+            <div>Nature</div>
+            <div>Lake</div>
+        </div>
+        <h2>Lago di Braies</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam porro delectus a similique debitis quos optio.</p>
+        <div class="readmore">
+            Read More
+        </div>
+    </div>
+</body>
+</html>
