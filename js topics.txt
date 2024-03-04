@@ -1,0 +1,37 @@
+Basics:
+Variables and Data Types
+Operators
+Conditional Statements (if...else, switch)
+Loops (for, while, do...while)
+Functions
+Arrays
+Objects
+Scope and Closures
+DOM Manipulation
+Events
+Error Handling (try...catch)
+JSON
+ES6 Features (let, const, arrow functions, classes, template literals, destructuring, etc.)
+
+
+
+
+
+Advanced Concepts:
+Prototypes and Inheritance
+Asynchronous JavaScript (Callbacks, Promises, Async/Await)
+Higher-Order Functions
+Functional Programming
+Modules (CommonJS, ES6 Modules)
+Regular Expressions
+Browser Storage (Cookies, Local Storage, Session Storage, IndexedDB)
+AJAX and Fetch API
+WebSockets
+Client-Side Routing (using libraries like React Router)
+Server-Side JavaScript (Node.js)
+Package Managers (npm, yarn)
+Task Runners (Gulp, Grunt)
+Module Bundlers (Webpack, Parcel)
+Testing (Unit Testing, Integration Testing)
+Security (Cross-Site Scripting, Cross-Site Request Forgery, Content Security Policy)
+Performance Optimization (Code Splitting, Lazy Loading, Caching)
