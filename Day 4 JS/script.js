@@ -85,7 +85,7 @@ function addp(x,y){
 let x
 console.log(addp(5,x));
 // addp(5,6)
-}
+
 
 let str= "LAkshya";
 console.log(str)
@@ -98,16 +98,4 @@ console.log(`${str.toUpperCase()} is a good boy.`)
 console.log(`${str.toLowerCase()} is a good boy.`)
 // console.log(`${str.toLocaleUpperCase()} is a good boy.`)
 
-
-let arr=[4,5,6,7];
-console.log(arr.toString());
-console.log(arr.join("@"));
-console.log(arr.pop());
-console.log(arr);
-
-console.log(arr.push("laa"));
-console.log(arr);
-console.log(arr.shift());
-console.log(arr);
-console.log(arr.unshift(5));
-console.log(arr);k
+}
